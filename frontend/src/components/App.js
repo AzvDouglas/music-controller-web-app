@@ -1,9 +1,9 @@
-import react, { Component, component} from "react";
+import React, { Component } from "react";
 import { render } from "react-dom";
 
 export default class App extends Component {
 	constructor(props) {
-		super(pros);
+		super(props);
 	}
 
 	render() {
@@ -11,4 +11,5 @@ export default class App extends Component {
 	}
 }
 
-Const appDiv = document.getElementById("app")
+const appDiv = document.getElementById("app");
+render(<App />, appDiv);
